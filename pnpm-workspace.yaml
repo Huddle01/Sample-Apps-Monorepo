@@ -1,4 +1,0 @@
-packages:
-  - "apps/mobile/*"
-  - "packages/*"
-  - "apps/web/*"

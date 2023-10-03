@@ -10,8 +10,13 @@
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
     "tsconfig": "workspace:*",
-    "turbo": "latest"
+    "turbo": "latest",
+    "yarn": "^1.22.17"
   },
-  "packageManager": "pnpm@8.6.10",
-  "name": "huddle01-sample-apps"
+  "packageManager": "yarn@1.22.17",
+  "name": "huddle01-sample-apps",
+  "workspaces": [
+    "apps/web/*",
+    "apps/mobile/*"
+  ]
 }
