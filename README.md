@@ -13,12 +13,12 @@ git clone https://github.com/huddle01/huddle01-sample-apps.git
 2. Install dependencies for all the apps inside the monorepo
 
 ```bash
-pnpm install
+yarn install
 ```
 
 3. Run the app you want to test (Web Apps)
 
 ```bash
 cd apps/web/[example-app-name]
-pnpm dev
+yarn dev
 ```
