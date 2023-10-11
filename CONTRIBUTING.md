@@ -2,6 +2,14 @@
 
 Thank you for your interest in contributing to the Sample Apps Monorepo! We welcome contributions from everyone.
 
+## Prerequisites
+This is a monorepo powered by yarn that includes a multiple examples. This repository allows you to conveniently manage multiple projects within a single repository.
+
+Before you begin, ensure that you have the following installed on your local machine:
+
+- [Node.js](https://nodejs.org/en/download) (version 18.16.0 or later)
+- Yarn (https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+
 ## Getting Started
 
 1. Fork the repository to your GitHub account
@@ -15,14 +23,14 @@ git clone [your-forked-repo-url]
 3. Install dependencies for all the apps inside the monorepo
 
 ```bash
-pnpm install
+yarn 
 ```
 
 4. Run the app you want to test (Web Apps)
 
 ```bash
 cd apps/web/[example-app-name]
-pnpm dev
+yarn run dev
 ```
 
 ## Guidelines
