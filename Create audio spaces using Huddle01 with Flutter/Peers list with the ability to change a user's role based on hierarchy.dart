@@ -53,7 +53,7 @@ class _PeersListState extends State<PeersList> {
 }
 
 
-///Add the PeersList widget to your app's main screen
+// Add the PeersList widget to your app's main screen
 
 class MyApp extends StatelessWidget {
   @override
